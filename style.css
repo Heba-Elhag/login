@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+  background:url(background.jpg) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.login{
+    width: 420px;
+    background: transparent;
+    background: 3px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+
+}
+.login h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 38px;
+
+}
+
+.login .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0 ;
+}
+
+.login .input-box input{
+    width: 100%;
+    color: #fff;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    padding: 20px 45px 20px 20px;
+}
+
+.login .input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    color: #fff;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.login .forget-remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+.login .forget-remember label input {
+    color: #fff;
+    margin-right: 5px;  
+
+}
+.login .forget-remember a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.login .forget-remember a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    outline: none ;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    color: #333;
+    font-size: 18px;
+    background: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #9c58bb;
+    color: #fff;
+}
+
+.login .other{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.login .other p{
+    color: #fff;
+    font-size: 15px;
+}
+.login .other p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login .other p a:hover{
+    text-decoration: underline;
+}
